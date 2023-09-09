@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            border: 2px solid;
+        }
+        .row
+        {
+            background: lightblue;
+            display: grid;
+            grid-template-columns:2fr 2fr ;
+
+        }
+        .col1
+        {
+            padding: 10px;
+            display: grid;
+            grid-template-columns:2fr 2fr 2fr;
+            gap: 10px;
+        }
+        .a
+        {
+          padding: 10px;  
+          display: grid; 
+          grid-template-columns: 2fr 2fr 2fr;
+        }
+        .a .x
+        {
+            height: 50px;
+        }
+        .col2
+        {
+          /* padding: 10px; */
+          grid-template-rows: 100fr 100fr;
+        }
+        .b
+        {
+            /* padding: 10px; */
+            height: 50px;
+        }
+        .col3
+        {
+            display: grid;
+            grid-template-columns: 2fr 2fr 2fr 2fr 2fr;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="row">
+        <div class="col1">
+            <div class="a"></div>
+
+            <div class="a">
+                <div class="x"></div>
+                <div class="x"></div>
+                <div class="x"></div>
+                <div class="x"></div>
+
+            </div>
+
+            <div class="a"></div>
+        </div>
+
+        <div class="col2">
+            <div class="b"></div>
+            <div class="b"></div>
+            <div class="b"></div>
+        </div>
+
+        <div class="col3">
+            <div class="y"></div>
+            <div class="y"></div>
+            <div class="y"></div>
+            <div class="y"></div>
+            <div class="y"></div>
+        </div>
+        <div class="col1">col 4</div>
+    </div>
+</body>
+</html>

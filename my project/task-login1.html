@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .x
+        {
+            height: 300px;
+            width: 300px;
+            margin: 100px auto;
+            background: conic-gradient(lightblue,blue);
+            border-radius: 50%;
+            box-shadow: 0 0 8px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            animation: mayur 2s infinite linear;
+        }
+        .a
+        {
+            height: 20px;
+            width: 20px;
+            background: blue;
+            border-radius: 50%;
+
+            transform: translate(0px,-140px);
+
+        }
+        .y
+        {
+            height: 260px;
+            width: 260px;
+            background:lightsteelblue;
+            border-radius: 50%;
+            box-shadow: 0 0 15px inset;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transform: translate(495px,-380px);
+        }
+        @keyframes mayur
+        {
+            from{transform: rotate(0deg);}
+            to{transform: rotate(360deg);}
+        }
+
+    </style>
+</head>
+<body>
+    <div class="x">
+        <div class="a"></div>
+    </div>
+    <div class="y">Loading</div>
+
+</body>
+</html>

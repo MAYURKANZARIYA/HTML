@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *
+        {
+            box-sizing: border-box;
+        }
+        .main
+        {
+            height: 500px;
+            width: 500px;
+            border-radius:50% ;
+            background: lightblue;
+            margin: 50px auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .x,.a,.y,.b
+        {
+            height: 250px;
+            width: 150px;
+        }
+        .x
+        {
+           
+            border-radius:50% ;
+            background:white;
+            display: flex;
+            justify-content:center;
+            align-items: center;
+            position: relative;
+            overflow: hidden;
+        }
+        .a{
+           
+            border-radius: 90px;
+            transform: translate(0px,-100px);
+            background: lightseagreen;
+            transition: 1s;
+            animation: mayur1 2s infinite alternate-reverse;
+        }
+        .y
+        {
+            border-radius:50% ;
+            background:white;
+            display: flex;
+            justify-content:center;
+            overflow: hidden;
+            align-items: center;
+
+        }
+        .b{
+           
+            border-radius: 90px;
+            transform: translate(0px,-100px);
+            background: lightseagreen;
+            transition: 1s;
+            animation: mayur1 2s infinite alternate-reverse;
+        }
+        .x1,.y2
+        {
+            height: 100px;
+            width: 70px;
+            border-radius: 50%;
+            background: black;
+            margin-left: -50%;
+            animation: mayur2 1s infinite alternate-reverse;
+            
+        }
+        
+        @keyframes mayur1
+        {
+            from{transform: translate(0px,-100px);}
+            to{transform: translate(0px,-450px);}
+        }
+        @keyframes mayur2
+        {
+            from{transform: translate(100px,0px);}
+            to{transform: translate(0px,0px);}
+        }
+       
+        
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="x">
+            <div class="x1">
+            <div class="a"></div>
+            </div>
+        </div>
+        <div class="y">
+            <div class="y2">
+            <div class="b"></div>
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+
+        }
+        .main
+        {
+            height: 100px;
+            width: 100px;
+            background: lightblue;
+            border-radius: 50%;
+            margin: 100px auto;
+        }
+        .x
+        {
+            height: 100px;
+            width: 100px;
+            background:lightcoral;
+            border-radius: 50%;
+            opacity: 1;
+            animation: playBtn 1s infinite;
+        }
+        @keyframes playBtn
+        {
+            from{transform:scale(1) ; opacity: 1;}
+            to{transform:scale(1.9); opacity: 0;}
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="x"></div>
+
+    </div>
+    
+</body>
+</html>

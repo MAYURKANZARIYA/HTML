@@ -1,0 +1,346 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body *
+{
+    border: 2px solid;
+}
+/* header start */
+.header
+{
+    background: black;
+    text-align: center;
+}
+.x li
+{
+    margin-right: 100px;
+    display: inline;
+    border: none;
+    border-right: 2px solid gray;
+
+}
+.x li a i
+{
+    color: #2FDAB8;
+    margin-right: 10px;
+}
+a
+{
+    text-decoration: none;
+    border: none;
+    color: #fff;
+
+}
+
+/* ******************* */
+.box
+{
+    display: flex;
+}
+.box .box1,.box2,.box3
+{
+    border: 2px solid;
+    width: 33.33%;
+    text-align: center;
+    line-height: 100px;
+
+}
+.box .box1{
+    display: flex;
+    font-size: xx-large;
+    padding: 25px;
+}
+.box1 input
+{
+   width: 70%;
+}
+.box1 button 
+{
+   background: #2FDAB8;
+   color: #fff;
+   font-size: xx-large;
+   width: 15%;
+   justify-content: center;
+   margin-left: 10px;
+}
+.box .box3
+{
+    display: flex;
+}
+.box .box3 p
+{
+  width: 20%;
+}
+.box .box3 .app 
+{
+    width: 80%;
+}
+.box .box3 .app 
+{
+    display: flex;
+}
+.box .box3 .app div
+{
+   width: 25%;
+}
+
+/* ********************* */
+.y
+{
+
+  display: flex;
+  padding: 20px;
+}
+.y .icon
+{
+   margin-left: 450px; 
+}
+.y li
+{
+    margin-left: 20px;
+    display: inline;
+}
+  /* header end */
+
+/* ****************** */
+.img
+{
+  height: 400px;
+}
+.img ul
+{
+    text-align: center;
+    line-height: 50px;
+    margin-top: 80px;
+}
+/* ***************** */
+.xyz
+{
+    height: 400px;
+    display: flex;
+    padding: 50px 80px;
+}
+.xyz div
+{
+    width: 50%;
+    height: 300px;
+    font-size: 40px;
+    line-height: 300px;
+    margin-left: 20px;
+    text-align: center;
+
+}
+
+/* ******************* */
+.abc
+{
+    height: 400px;
+    display: flex;
+}
+.abc .x,.xy
+{
+    width: 50%;
+}
+.abc .xy .m
+{
+  margin-top: 50px;
+  margin-right: 50px;
+  height: 300px; 
+}
+.icon
+{
+    display: flex;
+}
+.m p
+{
+  margin-top: 20px;
+}
+.icon div
+{
+    text-align: center;
+    line-height: 100px;
+    margin-top: 50px;
+    width: 33.33%;
+}
+
+/* ***************** */
+.main h1
+{
+    text-align: center;
+}
+.sub
+{
+    height: 650px;
+    display: flex;
+    padding: 70px;
+}
+.sub .d
+{
+    width: 40%;
+    margin-right: 40px;
+}
+.sub .e
+{
+    width: 60%;  
+    display: flex;
+    flex-direction: column;  
+    justify-content: space-between;
+}
+.sub .e div
+{
+  /* margin-top: 15px; */
+  /* height: 230px;   */
+}
+.e1,.e2{
+    height: 47%;
+}
+.e2{
+    /* margin-top: 20px; */
+    /* padding-top:20px ; */
+}
+/* ****************** */
+.mk
+{
+    height: 350px;
+    display: flex;
+}
+.mk div
+{
+    width: 50%;
+    font-size: 50px;
+    text-align: center;
+    line-height: 350px;
+}
+/* ******************* */
+.shoping{
+    margin-top: 50px;
+}
+.shoping h1{
+    text-align: center;
+}
+.men{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+}
+.men li{
+margin: 0px 100px;
+}
+
+.maincard
+{
+    display: flex;
+    padding-left: 100px;
+    flex-wrap: wrap;
+    
+
+}
+.maincard .m
+{
+    height: 400px;
+    width: 22%;
+    box-shadow: 0 0 20px;
+    margin:10px 20px 10px 0 ;
+}
+
+
+/* ***************** */
+
+.ab
+{
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.ab button
+{
+  margin-top: 20px;
+}
+/* ***************** */
+.mr
+{
+    height: 200px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.mr div
+{
+    width: 23%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.mr .x1
+{
+    height: 70px;
+    width: 70px;
+}
+.mr .x2
+{
+    margin-left: 20px;
+    height:80px ;
+    width: 180px;
+}
+
+/* ****************** */
+.ms
+{
+    height: 600px;
+    padding: 30px;
+
+}
+.ms .home
+{
+    height: 400px;
+    /* margin-left: 10px; */
+    display: flex;
+}
+.home .m
+{
+    width: 25%;
+}
+.m .logo
+{
+  display: flex;
+  padding: 5px;
+  gap: 5px;
+
+}
+.logo div
+{
+    height: 50px;
+    width: 25%;
+}
+.opq .mk
+{
+    display: flex;
+}
+.op
+{
+    height: 50px;
+    width: 33.33%;
+}
+
+.h
+{
+    height: 100px;
+    margin-top: 20px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+.h .h1,.h2
+{
+    width: 45%;
+    margin-left: 20px;
+  
+}
+
+
+
+

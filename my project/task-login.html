@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .x
+        {
+            height: 200px;
+            width: 200px;
+            /* background: lightseagreen; */
+            margin: 100px auto;
+            border: 30px solid lightblue;
+            border-radius: 50%;
+            border-left: 30px solid lightseagreen;
+            animation: mayur 1s infinite linear;
+        }
+        .x1,.x2
+        {
+            height: 30px;
+            width: 30px;
+            border-radius: 50%;
+            background: lightseagreen;
+            transform: translate(2px,6px);
+        }
+        .x2
+        {
+           
+            transform: translate(2px,135px);
+        }
+        @keyframes mayur
+        {
+            from{transform: rotate(0deg);}
+            to{transform: rotate(360deg);}
+        }
+    </style>
+</head>
+<body>
+    <div class="x">
+        <div class="x1"></div>
+        <div class="x2"></div>
+    </div>
+    
+</body>
+</html>

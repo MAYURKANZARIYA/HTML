@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        .x
+        {
+            height: 400px;
+            width: 300px;
+            background: lightblue;
+            margin: 100px auto;
+            overflow: hidden;
+            position: relative;
+        }
+        .a
+        {
+            height: 1200px;
+            width: 1200px;
+            background:linear-gradient(red,yellow,lightseagreen);
+            margin:-200px 0 0 -200px ;
+            transition: .5s;
+
+        }
+        .b
+        {
+            height: 350px;
+            width: 250px;
+            background: lightseagreen;
+            /* transform: translate(25px,-375px); */
+            position: absolute;
+            top: 25px;
+            left: 25px;
+
+
+        }
+        .x:hover .a
+        {
+            transform: rotate(360deg);
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="x">
+        <div class="a"></div>
+        <div class="b"></div>
+
+        
+    </div>
+</body>
+</html>
