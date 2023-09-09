@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    
+        .m
+        {
+            height: 100px;
+            width: 200px;
+            background:linear-gradient(red,blue);
+            border: 5px solid;
+            border-radius:100px ;
+            text-align: center;
+            font-size:50px;
+            color: white;
+            margin: 160px;
+            position: relative;
+            overflow: hidden;
+        }
+        .x
+        {
+         height: 100px;
+         width:250px ;
+         background:linear-gradient(white,silver,white);
+         /* rotate: deg; */
+        top: 200px;
+        top:-250px;
+         position: absolute;
+         transition: 1s;
+
+
+        }
+
+        .m:hover .x{
+           
+            top: 200px;
+          
+            
+        }
+        
+    </style>
+</head>
+<body>
+<div class="m ">Mayur
+    <div class="x">
+
+    </div>
+
+</div>
+</body>
+</html>
